@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cone Torch Effect</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      src="https://kit.fontawesome.com/027a769cce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="hero-section">
+      <header>
+        <div class="logo">Xplora.io</div>
+        <nav>
+          <a href="#features">About</a>
+          <a href="#gallery">Blog</a>
+          <a href="#pricing">Support</a>
+        </nav>
+        <button class="cta">Get Started</button>
+      </header>
+      <div id="hero-section-headline">
+        <div>
+          <span></span>
+          <h1>Introducing</h1>
+          <span></span>
+        </div>
+        <h1 id="hero-section-headline-header">Xplora.io</h1>
+        <p id="hero-section-headline-subText">
+          Analyze your data, create your dashboard, and unite your team.
+        </p>
+        <button class="cta">Get Started</button>
+      </div>
+    </div>
+    <div id="dashboard-container">
+      <div id="dashboard">
+        <div id="dashboard-header">
+          <div id="dashboard-header-leftSide">
+            <i class="fa-solid fa-bars"></i>
+            <h2>Dashboard</h2>
+          </div>
+          <div id="dashboard-header-rightSide">
+            <div id="dashboard-header-rightSide-capsule">
+              <img src="./imgs/Ellipse 1234.png" alt="" srcset="" />
+              <img src="./imgs/Ellipse 1235.png" alt="" srcset="" />
+              <img src="./imgs/Ellipse 1236.png" alt="" srcset="" />
+              <h4>+4</h4>
+            </div>
+            <div id="dashboard-header-rightSide-box">
+              <i class="fa-solid fa-plus"></i>
+              <h4>Add</h4>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+        </div>
+
+        <div id="dashboard-body">
+          <div class="grid-item item-1">
+            <div class="grid-header">
+              <h1>User Signups</h1>
+            </div>
+            <canvas id="lineChart"></canvas>
+          </div>
+          <div class="grid-item item-2">
+            <div class="grid-header">
+              <h1>Revenue by City</h1>
+            </div>
+            <canvas id="pieChart"></canvas>
+          </div>
+          <div class="grid-item item-3">
+            <div class="grid-header">
+              <h1>Orders by City</h1>
+            </div>
+            <canvas id="barChart"></canvas>
+          </div>
+          <div class="grid-item item-4">
+            <div class="grid-header">
+              <h1>Top Customers</h1>
+              <button>View all</button>
+            </div>
+
+            <div class="grid-header">
+              <h1>Customer</h1>
+              <h1>Total Spending</h1>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="container">
+    <div id="content">Torchlight Effect</div>
+  </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
